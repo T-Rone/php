@@ -58,7 +58,7 @@ switch ($_GET['action']) {
 		 WHERE  ID='{$id}'";
         $rw=$pdo->exec($sql);
         if($rw>0){
-            echo "<script>alert('update ok');window.location='index.php'</script>";
+            echo "<script>alert('update ok');window.location='emp.php'</script>";
         }else{
             echo "<script>alert('修改失败');window.history.back()</script>";
         }
