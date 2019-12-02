@@ -78,7 +78,9 @@
 		       }
 
 	</style>
-	<body>
+	
+</head>
+<body>
 	<div class="box">	
 		<div class="header">
 				
@@ -104,8 +106,6 @@
 		                 </form>
 		      
 		             </div>
-</head>
-<body>
 <center>
     <?php
     //1.连接数据库
