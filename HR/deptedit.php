@@ -2,9 +2,109 @@
 <head>
     <meta charset="UTF-8">
     <title>部门信息管理</title>
+<style type="text/css">
+		*{
+			margin: 0;padding: 0;
+		 }
+		.header
+		{
+			width: 100%;
+			height: 425px;
+			background-image: url(img/1.jpg);
+		}
+		.menu{
+			background-color:  burlywood;
+			margin-top: -5px;
+		}
+		
+		ul{
+			margin: 0 auto;
+			list-style: none;
+			height: 30px;
+			line-height: 30px;
+		}
+		ul li
+		{
+			
+			width: 200px;
+			text-align: center;
+			margin: 0 auto;
+			margin-left: 225px;
+			float: left;
+		}
+	 	a
+		{
+			text-decoration: none;
+			margin: 0 auto;
+			padding: 6px;
+		}
+		a:hover{color: #000000;background-color: #DEE1FF;}
+		
+		.bottom p{
+			display:  block;
+			text-align: center;
+			margin: 0 auto;
+		}
+		.content
+		       {	
+				width:100%;
+		        margin:0 auto;
+		       }
+		       .content_1
+		       {
+		
+		           width:100%;border:1px solid #ccc;
+		           height:30px;
+		       }
+		       span
+		       {
+		        color: #666;
+		        font-size:13px;
+		        line-height:30px;
+		
+		       }
+		       span a
+		       {
+		        color: #666;
+		        text-decoration:none;
+		       }
+			   .list_1
+		       {
+		          height:30px;
+		          font-size:13px;
+		          color:#666;
+		          text-align:center;
+		          border:1px solid #ccc;
+		       }
 
+	</style>
 </head>
 <body>
+    <div class="box">	
+		<div class="header">
+				
+		</div>
+		
+		<div class="menu">
+			 	<ul>
+			 		<li><a href="emp.php" target="ms">员工信息</a></li>
+			 		<li><a href="dept.php" target="ms">部门信息</a></li>
+					<li><a href="job.php" target="ms">职位信息</a></li>
+			 	</ul>
+			 		
+		</div>
+		
+		<div class="content">	
+		      <div class="content_1">
+		      
+		                 <form action="empaction.php?action=sel" method="post" accept-charset="utf-8">
+		                 <span>你现在所在的位置：<a href="#">首页 </a>》员工||
+		                   请输入关键字：<input type="text" name="name"/>
+		                   <input type="submit" value="查询">
+		                   </span>
+		                 </form>
+		      
+		             </div>
 <center>
     <?php
     //1.连接数据库
@@ -44,11 +144,8 @@
                 </td>
             </tr>
         </table>
-
     </form>
-
-
-
 </center>
+            </div>
 </body>
 </html>
