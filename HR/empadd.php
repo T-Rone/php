@@ -80,7 +80,7 @@
 
 	</style>
 	<body>
-	<div class="box">	
+<div class="box">	
 		<div class="header">
 				
 		</div>
@@ -104,9 +104,8 @@
 		                   </span>
 		                 </form>
 		      
-		             </div>
+		             </div>	
 		 
-<body>
 <center>
     <h3>增加员工信息</h3>
     <form id="addemp" name="addemp" method="post" action="empaction.php?action=add">
