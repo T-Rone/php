@@ -112,7 +112,7 @@
 		      <div class="content_1">
 		      
 		                 <form action="empaction.php?action=sel" method="post" accept-charset="utf-8">
-		                 <span>你现在所在的位置：<a href="#">首页 </a>》员工||
+		                 <span>你现在所在的位置：<a href="#">首页 </a>》职位||
 		                   请输入关键字：<input type="text" name="name"/>
 		                   <input type="submit" value="查询">
 		                   </span>
